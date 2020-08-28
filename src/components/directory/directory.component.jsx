@@ -7,41 +7,41 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
+          title: "mines",
+          imageUrl:
+            "https://github.com/quangdbui9999/imagesWeb/blob/master/mine.png?raw=true",
+          id: 1,
+          linkUrl: "mines",
+        },
+        {
+          title: "farms",
+          imageUrl:
+            "https://github.com/quangdbui9999/imagesWeb/blob/master/farms.png?raw=true",
+          id: 2,
+          linkUrl: "farms",
+        },
+        {
+          title: "constructions",
+          imageUrl:
+            "https://github.com/quangdbui9999/imagesWeb/blob/master/constructions.png?raw=true",
+          id: 3,
+          linkUrl: "constructionw",
+        },
+        {
           title: "crops",
           imageUrl:
             "https://github.com/quangdbui9999/imagesWeb/blob/master/crops.png?raw=true",
-          id: 1,
+          size: "large",
+          id: 4,
           linkUrl: "crops",
         },
         {
           title: "fruits",
           imageUrl:
             "https://github.com/quangdbui9999/imagesWeb/blob/master/fruits.png?raw=true",
-          id: 2,
-          linkUrl: "",
-        },
-        {
-          title: "farms",
-          imageUrl:
-            "https://github.com/quangdbui9999/imagesWeb/blob/master/farms.png?raw=true",
-          id: 3,
-          linkUrl: "",
-        },
-        {
-          title: "constructions",
-          imageUrl:
-            "https://github.com/quangdbui9999/imagesWeb/blob/master/constructions.png?raw=true",
-          size: "large",
-          id: 4,
-          linkUrl: "",
-        },
-        {
-          title: "mines",
-          imageUrl:
-            "https://github.com/quangdbui9999/imagesWeb/blob/master/mine.png?raw=true",
           size: "large",
           id: 5,
-          linkUrl: "",
+          linkUrl: "fruits",
         },
       ],
     };

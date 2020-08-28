@@ -11,21 +11,21 @@ class Directory extends React.Component {
           imageUrl:
             "https://github.com/quangdbui9999/imagesWeb/blob/master/crops.png?raw=true",
           id: 1,
-          linkUrl: "shop/hats",
+          linkUrl: "crops",
         },
         {
           title: "fruits",
           imageUrl:
             "https://github.com/quangdbui9999/imagesWeb/blob/master/fruits.png?raw=true",
           id: 2,
-          linkUrl: "shop/jackets",
+          linkUrl: "",
         },
         {
           title: "farms",
           imageUrl:
             "https://github.com/quangdbui9999/imagesWeb/blob/master/farms.png?raw=true",
           id: 3,
-          linkUrl: "shop/sneakers",
+          linkUrl: "",
         },
         {
           title: "constructions",
@@ -33,7 +33,7 @@ class Directory extends React.Component {
             "https://github.com/quangdbui9999/imagesWeb/blob/master/constructions.png?raw=true",
           size: "large",
           id: 4,
-          linkUrl: "shop/womens",
+          linkUrl: "",
         },
         {
           title: "mines",
@@ -41,7 +41,7 @@ class Directory extends React.Component {
             "https://github.com/quangdbui9999/imagesWeb/blob/master/mine.png?raw=true",
           size: "large",
           id: 5,
-          linkUrl: "shop/mens",
+          linkUrl: "",
         },
       ],
     };
@@ -50,8 +50,8 @@ class Directory extends React.Component {
   render() {
     return (
       <div class="directory-menu">
-        {this.state.sections.map(({ title, imageUrl, id, size }) => (
-          <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+        {this.state.sections.map(({ id, ...otherSectionProps }) => (
+          <MenuItem key={id} {...otherSectionProps} />
         ))}
       </div>
     );

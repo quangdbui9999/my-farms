@@ -156,63 +156,63 @@ const SHOP_DATA = [
         name: "Cacao",
         imageUrl:
           "https://github.com/quangdbui9999/imagesWeb/blob/master/cacao.png?raw=true",
-        price: 0,
+        price: 9,
       },
       {
         id: 2,
         name: "Coffee",
         imageUrl:
           "https://github.com/quangdbui9999/imagesWeb/blob/master/coffee.png?raw=true",
-        price: 0,
+        price: 33,
       },
       {
         id: 3,
         name: "Jasmine",
         imageUrl:
           "https://github.com/quangdbui9999/imagesWeb/blob/master/jasmine.png?raw=true",
-        price: 0,
+        price: 25,
       },
       {
         id: 4,
         name: "Peanut",
         imageUrl:
           "https://github.com/quangdbui9999/imagesWeb/blob/master/peanut.png?raw=true",
-        price: 0,
+        price: 35,
       },
       {
         id: 5,
         name: "Pepper",
         imageUrl:
           "https://github.com/quangdbui9999/imagesWeb/blob/master/pepper.png?raw=true",
-        price: 0,
+        price: 11,
       },
       {
         id: 6,
         name: "Pine",
         imageUrl:
           "https://github.com/quangdbui9999/imagesWeb/blob/master/pine.png?raw=true",
-        price: 0,
+        price: 7,
       },
       {
         id: 7,
         name: "Rice",
         imageUrl:
           "https://github.com/quangdbui9999/imagesWeb/blob/master/rice.png?raw=true",
-        price: 0,
+        price: 14,
       },
       {
         id: 8,
         name: "Rose",
         imageUrl:
           "https://github.com/quangdbui9999/imagesWeb/blob/master/rose.png?raw=true",
-        price: 0,
+        price: 28,
       },
       {
         id: 9,
         name: "Tea-Plant",
         imageUrl:
           "https://github.com/quangdbui9999/imagesWeb/blob/master/tea-plant.png?raw=true",
-        price: 0,
+        price: 37,
       },
     ],
   },
